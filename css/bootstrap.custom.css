@@ -1,0 +1,49 @@
+html,body {
+    height: 100%;
+    min-width: 320px;
+}
+body {
+    min-width: 320px;
+    font-size: 15px;
+}
+.navbar .navbar-default {
+    min-width: 320px;
+}
+.btn,
+.btn:active {
+    background-color: inherit;
+    outline: 0 none;
+}
+.navbar-default{
+    background-color: #D3CFDD;
+}
+.navbar .btn-default:active,
+.navbar .btn-default:hover {
+    background-color: white;
+}
+
+
+
+.navbar a:active {
+    color: #0c0c0c;
+}
+.gallery {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-danger,
+.btn-info {
+    border-radius: 20%;
+}
+
+@media screen and (max-width: 768px ){
+        .navbar-btn .btn-primary {
+          margin-left: 15px;
+        }
+}
+
+
+/* Log in */
+.modal .well {
+    background-color: inherit;
+}
