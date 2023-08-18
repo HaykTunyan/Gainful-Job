@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hy">
+
 <head>
     <title>Gainful-jobs</title>
     <meta charset="UTF-8">
@@ -16,581 +17,621 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed ">
+    <nav class="navbar navbar-default navbar-fixed ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="sr-only">Մենյու</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img class="logo" src="images/logo.jpg"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Gainful-Jobs</a></li>
+                    <li><a href="mermasin.html"><i class="fa fa-home" aria-hidden="true"></i> Մեր մասին</a></li>
+                    <li><a href="http://www.ysu.am/careercenter/hy/1418730974" target="_blank"><i class="fa fa-globe"
+                                aria-hidden="true"></i> Աշխատաշուկա</a></li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" name="search" class="form-control" placeholder="Որոնել">
+                    </div>
+                    <button type="submit" class="btn btn-default">Որոնել</button>
+                </form>
+                <div class="nav navbar-nav navbar-right">
+                    <div class="navbar-btn">
+                        <button type="button" class="btn btn-primary active" data-toggle="modal"
+                            data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span>
+                            Գրանցվել</button>
+                        <button type="button" class="btn btn-success active"
+                            onclick="window.location.href='singIn.html'"><span class="glyphicon glyphicon-user"></span>
+                            Մուտք Գործել</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                <span class="sr-only">Մենյու</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand"><img class="logo" src="images/logo.jpg"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="responsive-menu">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Gainful-Jobs</a></li>
-                <li><a href="mermasin.html"><i class="fa fa-home" aria-hidden="true"></i> Մեր մասին</a></li>
-                <li><a href="http://www.ysu.am/careercenter/hy/1418730974" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Աշխատաշուկա</a></li>
-            </ul>
-            <form class="navbar-form navbar-left">
-                <div class="form-group">
-                    <input type="text" name="search" class="form-control" placeholder="Որոնել">
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/img1.jpg" alt="img1" class="img-responsive">
+                        </div>
+
+                        <div class="item">
+                            <img src="images/img2.jpg" alt="img2" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/img3.jpg" alt="img3" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/img4.png" alt="img4" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/img5.jpg" alt="img5" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/img6.jpg" alt="img6" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/img7.jpg" alt="img7" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/img8.jpg" alt="img8" class="img-responsive">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <button type="submit" class="btn btn-default">Որոնել</button>
-            </form>
-            <div class="nav navbar-nav navbar-right">
-                <div class="navbar-btn">
-                    <button type="button" class="btn btn-primary active" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Գրանցվել</button>
-                    <button type="button" class="btn btn-success active" onclick="window.location.href='singIn.html'"><span class="glyphicon glyphicon-user"></span> Մուտք Գործել</button>
+            </div>
+            <div class="col-sm-4">
+                <div class="well">
+                    <img src="images/cv.jpg" class="img-responsive" alt="Cv">
+                </div>
+                <div class="well-sm">
+                    <p>Ներբեռնել և օգտագործել ձեր աշխատանքի համար</p>
+                    <a href="http://www.optimum.am/cv-generator?type=0&cv_id=0" target="_blank">CV օնլայն </a>
                 </div>
             </div>
         </div>
+        <hr>
     </div>
-</nav>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-8">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
-                    <li data-target="#myCarousel" data-slide-to="6"></li>
-                    <li data-target="#myCarousel" data-slide-to="7"></li>
-                </ol>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="images/img1.jpg" alt="img1" class="img-responsive">
-                    </div>
-
-                    <div class="item">
-                        <img src="images/img2.jpg" alt="img2" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/img3.jpg" alt="img3" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/img4.png" alt="img4" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/img5.jpg" alt="img5" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/img6.jpg" alt="img6" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/img7.jpg" alt="img7" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/img8.jpg" alt="img8" class="img-responsive">
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="well">
-                <img src="images/cv.jpg" class="img-responsive" alt="Cv">
-            </div>
-            <div class="well-sm">
-                <p>Ներբեռնել և օգտագործել ձեր աշխատանքի համար</p>
-                <a href="http://www.optimum.am/cv-generator?type=0&cv_id=0" target="_blank">CV օնլայն </a>
-            </div>
-        </div>
-    </div>
-    <hr>
-</div>
-
-<div class="container text-center">
-    <h3>Ինչ ենք ցանկանում...</h3>
-    <br>
-    <div class="row">
-        <div class="col-sm-3">
-            <a target="_blank" href="images/arag%20ashxatanq.jpeg">
-                <img src="images/arag%20ashxatanq.jpeg" class="img-responsive" alt="arag%20ashxatanq">
-            </a>
-            <p class="desc">Արագ աշխատանք</p>
-        </div>
-        <div class="col-sm-3">
-            <a target="_blank" href="images/masnagittyun.jpg">
-                <img src="images/masnagittyun.jpg" class="img-responsive" alt="masnagittyun-ashxatanq">
-            </a>
-            <p class="desc">Ընտրել մասնագիտություն</p>
-        </div>
-        <div class="col-sm-3">
-            <div class="well library">
-                <h4>Հայաստանի գրադարաններ</h4>
-                <a href="https://hy.wikipedia.org/wiki/%D5%80%D5%A1%D5%B5%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6%D5%AB_%D5%A3%D6%80%D5%A1%D5%A4%D5%A1%D6%80%D5%A1%D5%B6%D5%B6%D5%A5%D6%80">Գրադարան</a>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="well spyur">
-                <h4>Spyur Հայաստանի Որոնում</h4>
-                <a href="http://www.spyur.am/">www.Spyur.am</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container text-center">
-    <h3>Մասնագիտություններ</h3>
-    <br>
-    <div class="row">
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/doctor-service-detail.png">
-                            <img src="images/doctor-service-detail.png" class="img-responsive"  alt="doctor-service-detail">
-                            <a>Բժշկության ոլորտների աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/tntesagitutyun.jpg">
-                            <img src="images/tntesagitutyun.jpg" class="img-responsive"  alt="tntesagitutyun">
-                            <a>Տնտեսության ոլորտի աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/gear.png">
-                            <img src="images/gear.png" class="img-responsive" alt="IT-gear">
-                            <a>IT ոլորտ և Դիզայն աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/Lektor.jpg">
-                            <img src="images/Lektor.jpg" class="img-responsive" alt="Lektor-i-realfag">
-                            <a>Կրթության ոլորտի աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/national.jpg">
-                            <img src="images/national.jpg" class="img-responsive" alt="national">
-                            <a>Գյուղատնտեսության աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/nation.jpg">
-                            <img src="images/nation.jpg" class="img-responsive"  alt="nation">
-                            <a>Պետական ոլորտի աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/Household.jpg">
-                            <img src="images/Household.jpg" class="img-responsive"  alt="Household">
-                            <a>Կենցաղային ոլորտի աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/Construction.png">
-                            <img src="images/Construction.png" class="img-responsive"  alt="Construction">
-                            <a>Շինարարության ոլորտի աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/EducationTraining.png">
-                            <img src="images/EducationTraining.png" class="img-responsive"  alt="EducationTraining">
-                            <a>Այլ ոլորտի աշխատանքներ</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/Sports.png">
-                            <img src="images/Sports.png" class="img-responsive" alt="Sports-Equipment">
-                            <a>Սպորտի ոլորտում աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/huffpost-comgen.jpg">
-                            <img src="images/huffpost-comgen.jpg" class="img-responsive" alt="huffpost-comgen">
-                            <a>Ոստիկանության և ԶՈՒ աշխատանք</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 col-lg-3">
-            <div class="responsive">
-                <div class="gallery">
-                    <figure>
-                        <a target="_blank" href="images/world.png">
-                            <img src="images/world.png" class="img-responsive"  alt="world">
-                            <a>Աշխատանք Արտերկրում</a>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<br>
-<br>
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-    <div class="row">
-        <div class="col-sm-8">
-            <h2>Կայքի մասին</h2><br>
-            <p>Ներկայումս ՀՀ-ում կարևորագույն խնդիրներից մեկը գործազրկության խնդիրն է: Մի կողմից երկրում կան բազմաթիվ գործազուրկներ, ովքեր չեն կարողանում իրենց համապատասխան աշխատանքը գտնել:
-                Մյուս կողմից գործատուները, թափուր պաշտոնների մասին հայտարարություններ տալով, հաճախ չեն կարողանում գտնել իրենց պահանջներին համապատասխանող աշխատակիցների...</p>
-            <br>
-            <button type="button" class="btn btn-danger btn-sm active " onclick="window.location.href='mermasin.html'">Մանրամասն</button>
-            <br>
-            <br>
-        </div>
-    </div>
-</div>
-<br>
-<br>
-<br>
-<div class="container ">
-    <div class="row">
-        <h2 class="text-center"><span class="glyphicon glyphicon-hd-video">Աշխարհի աշխատանքը</span></h2>
+    <div class="container text-center">
+        <h3>Ինչ ենք ցանկանում...</h3>
         <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <a target="_blank" href="images/arag%20ashxatanq.jpeg">
+                    <img src="images/arag%20ashxatanq.jpeg" class="img-responsive" alt="arag%20ashxatanq">
+                </a>
+                <p class="desc">Արագ աշխատանք</p>
+            </div>
+            <div class="col-sm-3">
+                <a target="_blank" href="images/masnagittyun.jpg">
+                    <img src="images/masnagittyun.jpg" class="img-responsive" alt="masnagittyun-ashxatanq">
+                </a>
+                <p class="desc">Ընտրել մասնագիտություն</p>
+            </div>
+            <div class="col-sm-3">
+                <div class="well library">
+                    <h4>Հայաստանի գրադարաններ</h4>
+                    <a
+                        href="https://hy.wikipedia.org/wiki/%D5%80%D5%A1%D5%B5%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6%D5%AB_%D5%A3%D6%80%D5%A1%D5%A4%D5%A1%D6%80%D5%A1%D5%B6%D5%B6%D5%A5%D6%80">Գրադարան</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="well spyur">
+                    <h4>Spyur Հայաստանի Որոնում</h4>
+                    <a href="http://www.spyur.am/">www.Spyur.am</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h3>Մասնագիտություններ</h3>
         <br>
-        <div class="col-md-4">
-            <div class="video"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ejb63HgT-s4?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-        </div>
-        <div class="col-md-4">
-            <div class="video"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HYPxrzHJhF8?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-        </div>
-        <div class="col-md-4">
-            <div class="video"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sbiyXq6kzL8?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+        <div class="row">
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/doctor-service-detail.png">
+                                <img src="images/doctor-service-detail.png" class="img-responsive"
+                                    alt="doctor-service-detail">
+                                <a>Բժշկության ոլորտների աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/tntesagitutyun.jpg">
+                                <img src="images/tntesagitutyun.jpg" class="img-responsive" alt="tntesagitutyun">
+                                <a>Տնտեսության ոլորտի աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/gear.png">
+                                <img src="images/gear.png" class="img-responsive" alt="IT-gear">
+                                <a>IT ոլորտ և Դիզայն աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/Lektor.jpg">
+                                <img src="images/Lektor.jpg" class="img-responsive" alt="Lektor-i-realfag">
+                                <a>Կրթության ոլորտի աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/national.jpg">
+                                <img src="images/national.jpg" class="img-responsive" alt="national">
+                                <a>Գյուղատնտեսության աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/nation.jpg">
+                                <img src="images/nation.jpg" class="img-responsive" alt="nation">
+                                <a>Պետական ոլորտի աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/Household.jpg">
+                                <img src="images/Household.jpg" class="img-responsive" alt="Household">
+                                <a>Կենցաղային ոլորտի աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/Construction.png">
+                                <img src="images/Construction.png" class="img-responsive" alt="Construction">
+                                <a>Շինարարության ոլորտի աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/EducationTraining.png">
+                                <img src="images/EducationTraining.png" class="img-responsive" alt="EducationTraining">
+                                <a>Այլ ոլորտի աշխատանքներ</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/Sports.png">
+                                <img src="images/Sports.png" class="img-responsive" alt="Sports-Equipment">
+                                <a>Սպորտի ոլորտում աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/huffpost-comgen.jpg">
+                                <img src="images/huffpost-comgen.jpg" class="img-responsive" alt="huffpost-comgen">
+                                <a>Ոստիկանության և ԶՈՒ աշխատանք</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-3">
+                <div class="responsive">
+                    <div class="gallery">
+                        <figure>
+                            <a target="_blank" href="images/world.png">
+                                <img src="images/world.png" class="img-responsive" alt="world">
+                                <a>Աշխատանք Արտերկրում</a>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<br>
-<br>
-<br>
 
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-    <h2>ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐ</h2>
     <br>
-    <div class="row slideanim">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-euro logo-small"></span>
-            <button type="button" class="btn btn-info active">Գումարի</button>
-            <p>ՀՀ և Աշխարհի աշխատանքների վարձատրման համակարգ..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-heart logo-small"></span>
-            <button type="button" class="btn btn-info active">Բժկություն</button>
-            <p>ՀՀ Բժշկական ապահովություններ աշխատաքներ ..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-lock logo-small"></span>
-            <button type="button" class="btn btn-info active">Աշխատանքի սպասարկում</button>
-            <p>ՀՀ Աշխատանքի սպասարկումներ..</p>
-        </div>
-    </div>
-    <br><br>
-    <div class="row slideanim">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-leaf logo-small"></span>
-            <button type="button" class="btn btn-info active">Բնություն </button>
-            <p>ՀՀ բնություն և շրջակա միջավայր պահպանման աշխատանքներ ..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-briefcase logo-small"></span>
-            <button type="button" class="btn btn-info active">Գոծարքներ</button>
-            <p>ՀՀ աշխատանքային գործարքներ..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-wrench logo-small"></span>
-            <button type="button" class="btn btn-info active">Բարդ աշխատանք</button>
-            <p>ՀՀ բարդ աշխատանքներն..</p>
-        </div>
-    </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
-    <h2>ՀՀ Քաղաքներում</h2><br>
-    <h4>Աշխատանքներ</h4>
     <br>
-    <div class="row text-center slideanim">
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/gyumri.jpg" class="img-responsive" alt="gyumri">
-                <p><strong>Գյումրի</strong></p>
-                <button type="button" href="https://www.list.am/category/29?n=51&cmtype=1" class="btn btn-block btn-success active">աշխատանք Գյումրիում</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/Vanadzor.jpg" class="img-responsive" alt="Vanadzor">
-                <p><strong>Վանաձոր</strong></p>
-                <button type="button" href="https://www.list.am/category/29?n=48&cmtype=1" class="btn btn-block btn-success active">աշխատանք Վանաձորում</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/kapan.jpg" class="img-responsive" alt="kapan">
-                <p><strong>Կապան</strong></p>
-                <button type="button" href="https://www.list.am/category/29?n=54&cmtype=1" class="btn btn-block btn-success active">աշխատաքն Կապանում</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/ejmiacin.jpg" class="img-responsive" alt="ejmiacin">
-                <p><strong>Էջմիածին</strong></p>
-                <button type="button" href="https://www.list.am/category/29?n=25&cmtype=1" class="btn btn-block btn-success active">աշխատաքն Էջմիածնում</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/ijevan.jpg" class="img-responsive" alt="ijevan">
-                <p><strong>Իջևան</strong></p>
-                <button type="button" href="https://www.list.am/category/29?n=60&cmtype=1" class="btn btn-block btn-success active">աշխատանք Իջևանում</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/hrazdan.jpg" class="img-responsive" alt="hrazdan">
-                <p><strong>Հրազդան</strong></p>
-                <button type="button" href="https://www.list.am/category/29?n=42&cmtype=1" class="btn btn-block btn-success active">աշխատաքն Հրազդանում</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/stepanakert.jpg" class="img-responsive" alt="stepanakert">
-                <p><strong>Ստեփանակերտ</strong></p>
-                <button type="button" href="https://www.list.am/category/29?n=28&cmtype=1" class="btn btn-block btn-success active">աշխատանք Ստեփանակերտում</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/Artashat.jpg" class="img-responsive" alt="Artashat">
-                <p><strong>Արտաշատ</strong></p>
-                <button type="button" href="https://www.list.am/category/29?n=21&cmtype=1" class="btn btn-block btn-success active">աշխատանք Արտաշատում</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/exegnadzor.jpg" class="img-responsive" alt="exegnadzor">
-                <p><strong>Եղեգնաձոր</strong></p>
-                <button type="button" href="https://www.list.am/category/34" class="btn btn-block btn-success active">աշխատանք Եղեգնաձորում</button>
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Կայքի մասին</h2><br>
+                <p>Ներկայումս ՀՀ-ում կարևորագույն խնդիրներից մեկը գործազրկության խնդիրն է: Մի կողմից երկրում կան
+                    բազմաթիվ գործազուրկներ, ովքեր չեն կարողանում իրենց համապատասխան աշխատանքը գտնել:
+                    Մյուս կողմից գործատուները, թափուր պաշտոնների մասին հայտարարություններ տալով, հաճախ չեն կարողանում
+                    գտնել իրենց պահանջներին համապատասխանող աշխատակիցների...</p>
+                <br>
+                <button type="button" class="btn btn-danger btn-sm active "
+                    onclick="window.location.href='mermasin.html'">Մանրամասն</button>
+                <br>
+                <br>
             </div>
         </div>
     </div>
-</div>
-
-
-<div id="contact" class="container-fluid bg-grey">
-    <h4 class=" contact">Հետադարձ կապ</h4>
-    <div class="row">
-        <div class="col-sm-5">
-            <p>Մենք կպատասխանենք ձեզ 24 ժամվա ընթացքում</p>
-            <p><span class="glyphicon glyphicon-map-marker"></span> Երեվան, ՀՀ</p>
-            <p><span class="glyphicon glyphicon-envelope"></span> gainfuljob@gmail.com</p>
+    <br>
+    <br>
+    <br>
+    <div class="container ">
+        <div class="row">
+            <h2 class="text-center"><span class="glyphicon glyphicon-hd-video">Աշխարհի աշխատանքը</span></h2>
+            <br>
+            <br>
+            <div class="col-md-4">
+                <div class="video"><iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/ejb63HgT-s4?rel=0&showinfo=0" frameborder="0"
+                        allowfullscreen></iframe></div>
+            </div>
+            <div class="col-md-4">
+                <div class="video"><iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/HYPxrzHJhF8?rel=0&showinfo=0" frameborder="0"
+                        allowfullscreen></iframe></div>
+            </div>
+            <div class="col-md-4">
+                <div class="video"><iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/sbiyXq6kzL8?rel=0&showinfo=0" frameborder="0"
+                        allowfullscreen></iframe></div>
+            </div>
         </div>
-        <div class="col-sm-7 slideanim">
-            <div class="row">
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Անուն" type="text" required>
-                </div>
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="emailID" name="email" placeholder="Էլ հասցե" type="email" required>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- Container (Services Section) -->
+    <div id="services" class="container-fluid text-center">
+        <h2>ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐ</h2>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-euro logo-small"></span>
+                <button type="button" class="btn btn-info active">Գումարի</button>
+                <p>ՀՀ և Աշխարհի աշխատանքների վարձատրման համակարգ..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-heart logo-small"></span>
+                <button type="button" class="btn btn-info active">Բժկություն</button>
+                <p>ՀՀ Բժշկական ապահովություններ աշխատաքներ ..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <button type="button" class="btn btn-info active">Աշխատանքի սպասարկում</button>
+                <p>ՀՀ Աշխատանքի սպասարկումներ..</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-leaf logo-small"></span>
+                <button type="button" class="btn btn-info active">Բնություն </button>
+                <p>ՀՀ բնություն և շրջակա միջավայր պահպանման աշխատանքներ ..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-briefcase logo-small"></span>
+                <button type="button" class="btn btn-info active">Գոծարքներ</button>
+                <p>ՀՀ աշխատանքային գործարքներ..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench logo-small"></span>
+                <button type="button" class="btn btn-info active">Բարդ աշխատանք</button>
+                <p>ՀՀ բարդ աշխատանքներն..</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+        <h2>ՀՀ Քաղաքներում</h2><br>
+        <h4>Աշխատանքներ</h4>
+        <br>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/gyumri.jpg" class="img-responsive" alt="gyumri">
+                    <p><strong>Գյումրի</strong></p>
+                    <button type="button" href="https://www.list.am/category/29?n=51&cmtype=1"
+                        class="btn btn-block btn-success active">աշխատանք Գյումրիում</button>
                 </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Մեկնաբանություն" rows="5"></textarea><br>
-            <div class="row">
-                <div class="col-sm-12 form-group">
-                    <button class="btn btn-default pull-right" type="submit">Ողարկել</button>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/Vanadzor.jpg" class="img-responsive" alt="Vanadzor">
+                    <p><strong>Վանաձոր</strong></p>
+                    <button type="button" href="https://www.list.am/category/29?n=48&cmtype=1"
+                        class="btn btn-block btn-success active">աշխատանք Վանաձորում</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/kapan.jpg" class="img-responsive" alt="kapan">
+                    <p><strong>Կապան</strong></p>
+                    <button type="button" href="https://www.list.am/category/29?n=54&cmtype=1"
+                        class="btn btn-block btn-success active">աշխատաքն Կապանում</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/ejmiacin.jpg" class="img-responsive" alt="ejmiacin">
+                    <p><strong>Էջմիածին</strong></p>
+                    <button type="button" href="https://www.list.am/category/29?n=25&cmtype=1"
+                        class="btn btn-block btn-success active">աշխատաքն Էջմիածնում</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/ijevan.jpg" class="img-responsive" alt="ijevan">
+                    <p><strong>Իջևան</strong></p>
+                    <button type="button" href="https://www.list.am/category/29?n=60&cmtype=1"
+                        class="btn btn-block btn-success active">աշխատանք Իջևանում</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/hrazdan.jpg" class="img-responsive" alt="hrazdan">
+                    <p><strong>Հրազդան</strong></p>
+                    <button type="button" href="https://www.list.am/category/29?n=42&cmtype=1"
+                        class="btn btn-block btn-success active">աշխատաքն Հրազդանում</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/stepanakert.jpg" class="img-responsive" alt="stepanakert">
+                    <p><strong>Ստեփանակերտ</strong></p>
+                    <button type="button" href="https://www.list.am/category/29?n=28&cmtype=1"
+                        class="btn btn-block btn-success active">աշխատանք Ստեփանակերտում</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/Artashat.jpg" class="img-responsive" alt="Artashat">
+                    <p><strong>Արտաշատ</strong></p>
+                    <button type="button" href="https://www.list.am/category/29?n=21&cmtype=1"
+                        class="btn btn-block btn-success active">աշխատանք Արտաշատում</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="images/exegnadzor.jpg" class="img-responsive" alt="exegnadzor">
+                    <p><strong>Եղեգնաձոր</strong></p>
+                    <button type="button" href="https://www.list.am/category/34"
+                        class="btn btn-block btn-success active">աշխատանք Եղեգնաձորում</button>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--
+
+
+    <div id="contact" class="container-fluid bg-grey">
+        <h4 class=" contact">Հետադարձ կապ</h4>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Մենք կպատասխանենք ձեզ 24 ժամվա ընթացքում</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Երեվան, ՀՀ</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> gainfuljob@gmail.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Անուն" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="emailID" name="email" placeholder="Էլ հասցե" type="email"
+                            required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Մեկնաբանություն"
+                    rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Ողարկել</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
-<footer class="container-fluid text-center">
-    <a href="#myPage" title="To Top">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <div class="footer-text">
-        <h2>Հովանավորներ</h2>
-    </div>
-    <div class="col-sm-2 col-xs-offset-1">
-        <a class="viva" href="http://www.mts.am/">VivaCell-MTS</a>
-    </div>
-    <div class="col-sm-2">
-        <a class="ucom" href="https://www.ucom.am/hy/personal/">Ucom Armenia</a>
-    </div>
-    <div class="col-sm-2">
-        <a class="beel" href="https://beeline.am/am/?lang=hy">Beeline Armenia</a>
-    </div>
-    <div class="col-sm-2">
-        <a class="hh" href="http://www.mlsa.am/home/index.php?home">ՀՀ Ա. և Ս. Հ. նախարարություն</a>
-    </div>
-    <div class="col-sm-2">
-        <a class="spyur" href="http://www.spyur.am/">Spyur Armenia</a>
-    </div>
-</footer>
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <div class="footer-text">
+            <h2>Հովանավորներ</h2>
+        </div>
+        <div class="col-sm-2 col-xs-offset-1">
+            <a class="viva" href="http://www.mts.am/">VivaCell-MTS</a>
+        </div>
+        <div class="col-sm-2">
+            <a class="ucom" href="https://www.ucom.am/hy/personal/">Ucom Armenia</a>
+        </div>
+        <div class="col-sm-2">
+            <a class="beel" href="https://beeline.am/am/?lang=hy">Beeline Armenia</a>
+        </div>
+        <div class="col-sm-2">
+            <a class="hh" href="http://www.mlsa.am/home/index.php?home">ՀՀ Ա. և Ս. Հ. նախարարություն</a>
+        </div>
+        <div class="col-sm-2">
+            <a class="spyur" href="http://www.spyur.am/">Spyur Armenia</a>
+        </div>
+    </footer>
 
 
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">Ստեղծել Նոր Հաշիվ</h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="well">
-                            <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
-                                <div class="form-group">
-                                    <label for="username" class="control-label">Անուն</label>
-                                    <input type="text" class="form-control" id="username" name="username" value="" required="" title="Խնդրում ենք մուտքագրեք Ձեր Անուն" placeholder="Անուն">
-                                    <span class="help-block"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label for="username" class="control-label">Ազգանուն</label>
-                                    <input type="text" class="form-control" id="firstname" name="firstname" value="" required="" title="Խնդրում ենք մուտքագրեք Ձեր Ազգանուն" placeholder="Ազգանուն">
-                                    <span class="help-block"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label for="username" class="control-label">Էլ․ Հասցե</label>
-                                    <input type="text" class="form-control" id="email" name="email" value="" required="" title="Խնդրում ենք մուտքագրեք Ձեր Էլ․ Հասցե" placeholder="Էլ․ Հասցե">
-                                    <span class="help-block"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label for="password" class="control-label">Գաղտնաբառը</label>
-                                    <input type="password" class="form-control" id="password" name="password" value="" required="" title="Խնդրում ենք մուտքագրեք Ձեր Գաղտնաբառը" placeholder="Գաղտնաբառը">
-                                    <span class="help-block"></span>
-                                </div>
-                                <div id="loginErrorMsg" class="alert alert-error hide">Նշել տարացքը</div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember" id="remember">Հիշել
-                                    </label>
-                                </div>
-                                <button type="submit" class="btn btn-success active">Գրանցվել</button>
-                            </form>
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span
+                            class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Ստեղծել Նոր Հաշիվ</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="well">
+                                <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                                    <div class="form-group">
+                                        <label for="username" class="control-label">Անուն</label>
+                                        <input type="text" class="form-control" id="username" name="username" value=""
+                                            required="" title="Խնդրում ենք մուտքագրեք Ձեր Անուն" placeholder="Անուն">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="username" class="control-label">Ազգանուն</label>
+                                        <input type="text" class="form-control" id="firstname" name="firstname" value=""
+                                            required="" title="Խնդրում ենք մուտքագրեք Ձեր Ազգանուն"
+                                            placeholder="Ազգանուն">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="username" class="control-label">Էլ․ Հասցե</label>
+                                        <input type="text" class="form-control" id="email" name="email" value=""
+                                            required="" title="Խնդրում ենք մուտքագրեք Ձեր Էլ․ Հասցե"
+                                            placeholder="Էլ․ Հասցե">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password" class="control-label">Գաղտնաբառը</label>
+                                        <input type="password" class="form-control" id="password" name="password"
+                                            value="" required="" title="Խնդրում ենք մուտքագրեք Ձեր Գաղտնաբառը"
+                                            placeholder="Գաղտնաբառը">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div id="loginErrorMsg" class="alert alert-error hide">Նշել տարացքը</div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember">Հիշել
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-success active">Գրանցվել</button>
+                                </form>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="lead">Գրանցման առավելությունները</p>
-                        <strong><span class="text-success">ԱՆՎՃԱՐ</span></strong>
-                        <ul class="list-unstyled" style="line-height: 2">
-                            <li><span class="fa fa-check text-success"></span> Հեշտությամբ գտնել արագ աշխատանք</li>
-                            <li><span class="fa fa-check text-success"></span> Ստանալ աշխատանքային հրավերներ </li>
-                            <li><span class="fa fa-check text-success"></span> Ունենալ մեծ ինֆորմացիա աշխատանքի բնագավառներից</li>
-                            <li><small>(Միայն հաշիվ ունեցողները)</small></li>
-                            <li><a href="mermasin.html"><u>Կարդալ ավելին</u></a></li>
-                        </ul>
+                        <div class="col-xs-6">
+                            <p class="lead">Գրանցման առավելությունները</p>
+                            <strong><span class="text-success">ԱՆՎՃԱՐ</span></strong>
+                            <ul class="list-unstyled" style="line-height: 2">
+                                <li><span class="fa fa-check text-success"></span> Հեշտությամբ գտնել արագ աշխատանք</li>
+                                <li><span class="fa fa-check text-success"></span> Ստանալ աշխատանքային հրավերներ </li>
+                                <li><span class="fa fa-check text-success"></span> Ունենալ մեծ ինֆորմացիա աշխատանքի
+                                    բնագավառներից</li>
+                                <li><small>(Միայն հաշիվ ունեցողները)</small></li>
+                                <li><a href="mermasin.html"><u>Կարդալ ավելին</u></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
-<script src="js/jquery-3.1.1.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
-<!-- JavaScript plugins (requires jQuery) -->
-<!--[if lt IE 9]>
+    <!-- JavaScript plugins (requires jQuery) -->
+    <!--[if lt IE 9]>
 <script src="js/html5shiv.min.js"></script>
 <![endif]-->
-<!-- Include HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<script src="js/respond.min.js"></script>
-<script src="js/main.js"></script>
+    <!-- Include HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <script src="js/respond.min.js"></script>
+    <script src="js/main.js"></script>
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y762KNKF1W">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y762KNKF1W">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-Y762KNKF1W');
-</script>
+        gtag('config', 'G-Y762KNKF1W');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1796571798155339"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
